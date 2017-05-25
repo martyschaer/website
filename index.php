@@ -7,6 +7,7 @@
 	</head>
 	<body>
 		Hello &#xf09b;
+		<?php echo "php!" ?>
 	</body>
 </html>
 <!--
