@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
 html, body{
 	background-color: #f9f9f9;
+	font-family: 'Roboto', sans-serif;
+}
+
+.fa{
+	font-family: 'FontAwesome'
 }
 
 header{
@@ -13,9 +20,10 @@ header table{
 div#title-container h1{
 	color: #f9f9f9;
 	font-size: 42px;
+	font-weight: lighter;
 	margin-top: 43px;
 	margin-left: 5%;
-	margin-right: 5%; 
+	margin-right: 5%;
 }
 
 div#title-container{
