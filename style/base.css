@@ -1,0 +1,48 @@
+html, body{
+	background-color: #f9f9f9;
+}
+
+header{
+	background-color: #2d2d2d;
+}
+
+header table{
+	width: 100%;
+}
+
+div#title-container h1{
+	color: #f9f9f9;
+	font-size: 42px;
+	margin-top: 43px;
+	margin-left: 5%;
+	margin-right: 5%; 
+}
+
+div#title-container{
+	float: right;
+	width: calc(100% - 128px);
+	height: 128px;
+}
+
+div#profile-picture img{
+	height: 128px;
+	width: 128px;
+	float: left;
+}
+
+nav{
+	clear: both;
+}
+
+nav li{
+	height: 20px;
+	text-align: center;
+	padding: 5px;
+}
+
+nav a{
+	color: #f9f9f9;
+	text-decoration: none;
+	display: inline-block;
+	width: 24%;
+}
