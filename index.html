@@ -7,24 +7,47 @@
 		<link rel="stylesheet" type="text/css" href="style/reset.css">
 		<link rel="stylesheet" type="text/css" href="style/base.css">
 		<meta name="viewport" content="width=400, initial-scale=1">
+		<meta name="language" content="English">
 	</head>
 	<body>
 		<header>
 			<div id="profile-picture">
-				<a href="/"><img src="resources/img/face.jpg"></a>
+				<a href="/"><img alt="picture of my face" src="resources/img/face.jpg"></a>
 			</div>
 			<div id="title-container">
 				<h1>Marius Sch&#x00e4;r</h1>
 			</div>
 			<nav>
 				<ul>
-					<a href="/blog"><li class="menu"><span class="fa">&#xf1ea;</span> blog</li></a>
-					<a href="https://github.com/martyschaer"><li class="menu"><span class="fa">&#xf09b;</span> github</li></a>
-					<a href="mailto:contact@mariusschaer.ch"><li class="menu"><span class="fa">&#xf0e0;</span> email</li></a>
-					<a href="/contact"><li class="menu"><span class="fa">&#xf2bb;</span> contact</li></a>
+					<a href="/blog" title="I might have opinions"><li class="menu"><span class="fa">&#xf1ea;</span> blog</li></a>
+					<a href="https://github.com/martyschaer" title="see my code"><li class="menu"><span class="fa">&#xf092;</span> github<span class="le">&#xf08e;</span></li></a>
+					<a href="mailto:contact@mariusschaer.ch" title="write me an email"><li class="menu"><span class="fa">&#xf0e0;</span> email<span class="le">&#xf08e;</span></li></a>
+					<a href="/contact" title="more contact information"><li class="menu"><span class="fa">&#xf2bb;</span> contact</li></a>
 				</ul>
 			</nav>
 		</header>
+		<div class="page-wrap">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit rutrum libero vel accumsan. Vestibulum et congue tortor. Morbi ullamcorper ipsum ac augue accumsan, vel porta leo condimentum. Vestibulum a imperdiet mauris, id tristique diam. Curabitur id aliquet erat, sed condimentum nisl. Aenean urna velit, luctus vel ligula in, ullamcorper scelerisque sem. Donec eget felis ut elit commodo auctor vel a nisi. Donec feugiat viverra massa, sed venenatis dui volutpat nec. Cras at tortor euismod, congue enim elementum, tincidunt risus.
+
+Aliquam id diam et mi blandit vulputate. In ac est cursus nulla blandit dignissim a quis metus. Suspendisse suscipit nibh mi, ut convallis ipsum malesuada non. Duis rutrum massa ut iaculis hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam pharetra dolor at dui placerat, non rhoncus ex malesuada. Fusce consectetur augue eu ex elementum tincidunt. Cras posuere dapibus mollis. Suspendisse feugiat dapibus purus. Aenean nec magna mattis, fermentum lacus non, aliquet tellus. Ut id neque condimentum, vehicula nisl et, euismod urna.
+
+Nullam non sem sit amet augue ornare pellentesque. Aliquam erat volutpat. Quisque metus dolor, semper ac condimentum sit amet, rhoncus non ligula. Curabitur suscipit cursus mollis. Vestibulum id varius mauris. Sed et mauris non lectus molestie ullamcorper. Ut auctor, metus eget molestie pulvinar, nisl odio mollis eros, id rutrum mauris nibh et sem. Maecenas convallis at tellus at sagittis. Proin ornare condimentum nisl, eget iaculis massa semper ullamcorper.
+
+In nisl velit, posuere auctor arcu a, cursus vestibulum nulla. Phasellus ac blandit tellus, sit amet molestie dui. Pellentesque eu ante nibh. Aliquam erat volutpat. Morbi risus ipsum, facilisis id tellus sed, congue porttitor orci. In hac habitasse platea dictumst. Aliquam erat volutpat. Donec feugiat bibendum ante, auctor mattis dui placerat vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum eu risus consectetur, vehicula ipsum a, tempus eros. Pellentesque pharetra sagittis lorem, ac lacinia sem. Morbi at hendrerit ex.
+
+Donec luctus mauris ac lorem porttitor aliquet. Quisque vitae feugiat justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum faucibus accumsan mi id maximus. Sed cursus iaculis nisi sed volutpat. Morbi in nulla viverra, pellentesque risus a, viverra nibh. Morbi nec molestie justo, quis gravida lectus. In venenatis pellentesque ipsum, nec rutrum orci porta vitae. Curabitur iaculis purus sapien. Sed feugiat convallis velit. Maecenas nunc velit, maximus in dapibus eu, ornare nec nulla. In hac habitasse platea dictumst.
+		</div>
+		<footer class="site-footer">
+			<br>
+			<ul id="social-icons">
+				<li class="fa" title="where I code"><a href="https://github.com/martyschaer">&#xf092;</a></li>
+				<li class="fa" title="where I complain about code"><a href="https://twitter.com/martyschaer">&#xf081;</a></li>
+				<li class="fa" title="pay for my coffee addiction"><a href="https://www.paypal.me/schaermarius/5">&#xf0f4;</a></li>
+				<li class="fa" title="don't really use this one much"><a href="https://plus.google.com/+MariusSchär">&#xf0d4;</a></li>
+				<li class="fa" title="Professionalism&#x2122;"><a href="https://www.linkedin.com/in/marius-sch&#x00e4;r/">&#xf08c;</a></li>
+			</ul>
+			<span id="snarky-comment">painstakingly crafted by hand&#x2122;</span>
+		</footer>
 	</body>
 </html>
 <!--
@@ -35,10 +58,15 @@ Char table:
 ö 	&#x00f6;
 Ü 	&#x00dc;
 ü 	&#x00fc;
- 	&#xf09b;
+ 	&#xf092;
  	&#xf1ea;
  	&#xf0e0;
  	&#xf2bb;
-
+™ 	&#x2122;
+	&#xf081;
+	&#xf0d4;
+	&#xf08c;
+	&#xf0f4;
+ 	&#xf08e;
 Surround in <span class="fa">...</span>
 -->
