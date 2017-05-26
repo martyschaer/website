@@ -6,7 +6,7 @@ echo "Deploying master"
 echo "[ $(date) ]"
 
 echo "setting deployment notice"
-\mv /home/mariussc/www/website/deploy_index.html /home/mariussc/www/website/index.html
+\mv /home/mariussc/www/website/deploy_index.php /home/mariussc/www/website/index.php
 
 echo "cloning new version"
 git clone -q -b master git@github.com:martyschaer/website.git /home/mariussc/www/new_version
