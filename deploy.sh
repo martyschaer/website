@@ -1,7 +1,6 @@
-#!/bin/bash
-rm -rf /home/mariussc/www/website.bak
-cp -r /home/mariussc/www/website /home/mariussc/www/website.bak
-git clone -q -b master git@github.com:martyschaer/website.git /home/mariussc/www/website.new
-rm -rf /home/mariussc/www/website/
-mv /home/mariussc/www/website.new/ /home/mariussc/www/website/
+#!/usr/local/bin/bash
+export SHELL="/usr/local/bin/bash"
+export PATH="/usr/local/bin:/usr/bin:/bin"
+rm -rf /home/mariussc/www/website
+git clone -q -b master git@github.com:martyschaer/website.git /home/mariussc/www/website
 rm -rf /home/mariussc/www/website/.git
