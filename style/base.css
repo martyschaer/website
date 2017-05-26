@@ -46,6 +46,7 @@ div#profile-picture img{
 
 nav{
 	clear: both;
+	border-top: solid 2px #f9f9f9;
 }
 
 nav li{
