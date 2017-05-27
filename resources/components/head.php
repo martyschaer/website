@@ -1,12 +1,16 @@
 <?php
-/**
-
-*/
-	function putTitleShare($txt){
-		$id = str_replace(' ', '-', strtolower($txt));
+	/**
+	* generates a title and permalink button + anchor
+	*/
+	function putTitleShare($txt, $date){
+		$id = str_replace(' ', '-', strtolower($txt)) . "-{$date}";
 		$baseurl = "/blag#";
 		$url = $baseurl . $id;
-		echo "<div class=\"share\"><h2>{$txt}</h2><a name=\"{$id}\" class=\"anchor\"></a><a href=\"{$url}\"><span class=\"fa\">&#xf0c1;</span> permalink</a></div><hr class=\"postshare\"></hr>";
+		echo "<div class=\"share\"><h2>{$txt}</h2><span class=\"le\">{$date}</span><a name=\"{$id}\" class=\"anchor\"></a><a href=\"{$url}\"><span class=\"fa\">&#xf0c1;</span> permalink</a></div><hr class=\"postshare\"></hr>";
+	}
+
+	function putTitle($txt){
+		echo "<div class=\"share\"><h2>{$txt}</h2></div><hr class=\"postshare\"></hr>";
 	}
 ?>
 <head>
