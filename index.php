@@ -19,7 +19,6 @@
 			<br>
 			I also love tinkering with <a class="ext" href="https://www.reddit.com/r/unixporn/" title="Ricing">Linux computers</a>. My <a target="_blank" href="/resources/img/setup-neofetch.png"> current setup</a>.
 			<br>
-
 		</div>
 	</div>
 	<?php readfile("resources/components/footer.html");?>
