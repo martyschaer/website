@@ -1,9 +1,14 @@
 <?php
-	/**
-	* generates a title and permalink button + anchor
-	*/
+	
+	$_SESSION['posts'] = array();
+	$_SESSION['titles'] = array();
+
 	function putTitleShare($txt, $date){
 		$id = str_replace(' ', '-', strtolower($txt)) . "-{$date}";
+
+		$_SESSION['posts'][] = $id;
+		$_SESSION['titles'][] = $txt;
+
 		$baseurl = "/blag#";
 		$url = $baseurl . $id;
 		echo "<div class=\"share\"><h2>{$txt}</h2><span class=\"le\">{$date}</span><a name=\"{$id}\" class=\"anchor\"></a><a href=\"{$url}\"><span class=\"fa\">&#xf0c1;</span> permalink</a></div><hr class=\"postshare\"></hr>";
