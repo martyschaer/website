@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700');
 
 html, body{
 	background-color: #f9f9f9;
@@ -15,6 +16,14 @@ html, body{
 	font-size: 8px;
 	vertical-align: super;
 	margin-left: 5px;
+}
+
+code{
+	background-color: #d5d5d5;
+	padding-left: 2px;
+	padding-right: 2px;
+	line-height: 18px;
+	font-family: 'Roboto Mono', monospace;
 }
 
 header{
@@ -136,4 +145,14 @@ hr.postshare{
 	position: relative;
 	top: -200px;
 	visibility: hidden;
+}
+
+table#contact a{
+	color: #2d2d2d;
+	text-decoration: none;
+}
+
+table#contact td{
+	padding: 3px;
+	cursor: pointer;
 }
