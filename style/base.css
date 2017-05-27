@@ -5,6 +5,7 @@ html, body{
 	background-color: #f9f9f9;
 	font-family: 'Roboto', sans-serif;
 	height: 100%;
+	color: #2d2d2d;
 }
 
 a{
@@ -21,6 +22,10 @@ a{
 
 .fa{
 	font-family: 'FontAwesome';
+}
+
+span.monospace{
+	font-family: 'Roboto Mono', monospace;
 }
 
 code{
@@ -184,4 +189,19 @@ table#contact a{
 table#contact td{
 	padding: 3px;
 	cursor: pointer;
+}
+
+div.error h1{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 72px;
+	font-weight: lighter;
+}
+
+div.error h2{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
 }
