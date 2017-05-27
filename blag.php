@@ -58,6 +58,7 @@
 			a.appendChild(document.createTextNode(title));
 			var li = document.createElement("li");
 			li.appendChild(a);
+			li.setAttribute("class", "fa");
 			return li;
 		}
 
