@@ -78,6 +78,30 @@ nav a{
 	width: 24%;
 }
 
+@media screen and (max-width: 360px){
+	nav .fa{
+		display: none;
+	}
+
+	nav .txt{
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 300px){
+	nav .fa{
+		display: inline-block;
+	}
+
+	nav .txt{
+		display: none;
+	}
+
+	nav a{
+		width: 23%;
+	}
+}
+
 .page-wrap {
 	min-height: calc(100% - 158px);
   	margin-bottom: -64px;
