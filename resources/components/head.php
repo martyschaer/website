@@ -1,3 +1,14 @@
+<?php
+/**
+
+*/
+	function putTitleShare($txt){
+		$id = str_replace(' ', '-', strtolower($txt));
+		$baseurl = "/blag#";
+		$url = $baseurl . $id;
+		echo "<div class=\"share\"><h2>{$txt}</h2><a name=\"{$id}\" class=\"anchor\"></a><a href=\"{$url}\"><span class=\"fa\">&#xf0c1;</span> permalink</a></div><hr class=\"postshare\"></hr>";
+	}
+?>
 <head>
 	<link rel="stylesheet" href="resources/fonts/font-awesome/css/font-awesome.min.css">
 	<title>Marius Sch&#x00e4;r</title>
