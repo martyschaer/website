@@ -7,15 +7,20 @@ html, body{
 	height: 100%;
 }
 
-.fa{
-	font-family: 'FontAwesome';
+a{
+	color: #2d2d2d;
 }
 
-.le{
+.ext:after{
 	font-family: 'FontAwesome';
 	font-size: 8px;
 	vertical-align: super;
 	margin-left: 5px;
+	content: "\f08e"
+}
+
+.fa{
+	font-family: 'FontAwesome';
 }
 
 code{
