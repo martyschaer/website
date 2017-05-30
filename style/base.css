@@ -111,7 +111,7 @@ nav a{
 	min-height: calc(100% - 158px);
   	margin-bottom: -64px;
   	width: 80%;
-  	margin: 10px 10% 10px 10%;
+  	margin: 10px auto;
 }
 .page-wrap:after {
 	content: "";
@@ -144,7 +144,7 @@ nav a{
 	width: 100%;
 	box-shadow: 2px 2px 20px 1px #2d2d2d;
 	padding: 10px;
-	margin: 10px;
+	margin: 10px auto;
 }
 
 .share h2{
