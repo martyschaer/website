@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700');
+@import url('/resources/fonts/roboto/fonts.css');
+@import url('/resources/fonts/roboto_mono/fonts.css');
+@import url('reset.css');
 
 html, body{
 	background-color: #f9f9f9;
@@ -70,8 +71,11 @@ nav{
 	border-top: solid 2px #f9f9f9;
 }
 
+nav ul{
+	height: 30px;
+}
+
 nav li{
-	height: 20px;
 	text-align: center;
 	padding: 5px;
 }
