@@ -24,6 +24,6 @@
 	<link rel="icon" type="image/x-icon" href="resources/img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="style/reset.css">
 	<link rel="stylesheet" type="text/css" href="style/base.css">
-	<meta name="viewport" content="width=300, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="language" content="English">
 </head>
