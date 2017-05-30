@@ -22,7 +22,6 @@
 	<link rel="stylesheet" href="resources/fonts/font-awesome/css/font-awesome.min.css">
 	<title>Marius Sch&#x00e4;r</title>
 	<link rel="icon" type="image/x-icon" href="resources/img/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="style/reset.css">
 	<link rel="stylesheet" type="text/css" href="style/base.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="language" content="English">
