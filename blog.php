@@ -12,7 +12,7 @@
 			</ul>
 		</div>
 		<div class="card">
-			<?php putTitleShare("Blog", "2017-05-27");?>
+			<?php putTitleShare("Blog - shiny and new", "2017-06-02");?>
 			Now featuring a URL that makes sense.
 		</div>
 	</div>
