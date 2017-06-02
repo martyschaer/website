@@ -49,15 +49,14 @@ div#title-container h1{
 	color: #f9f9f9;
 	font-size: 42px;
 	font-weight: lighter;
-	margin-top: 43px;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin: 10px auto;
+	width: 90%;
+	text-align: center;
 }
 
 div#title-container{
 	float: right;
-	width: calc(100% - 128px);
-	height: 128px;
+	width: 100%;
 }
 
 div#profile-picture img{
@@ -112,7 +111,7 @@ nav a{
 }
 
 .page-wrap {
-	min-height: calc(100% - 158px);
+	min-height: calc(100% - 178px);
   	margin-bottom: -64px;
   	width: 80%;
   	margin: 10px auto;
