@@ -2,7 +2,7 @@
 <html>
 <?php include("resources/components/head.php");?>
 <body>
-	<?php readfile("resources/components/header.html");?>
+	<?php include("resources/components/header.php");?>
 	<div class="page-wrap">
 		<div class="card" id="didYouMean">
 			The post you were linked to doesn't exist.

@@ -1,6 +1,13 @@
 <header>
 	<div id="title-container">
-		<h1>Marius Sch&#x00e4;r</h1>
+		<h1>
+			<?php 
+				$f_contents = file("resources/colors.txt");
+				$line = $f_contents[array_rand($f_contents)]; 
+			?>
+			<?php if(substr($_SERVER['HTTP_HOST'], 0, strlen("beta")) === "beta"){echo "<span style='color: $line;' id='beta_notice'>β</span>";}?>
+			Marius Sch&#x00e4;r
+		</h1>
 	</div>
 	<nav>
 		<ul>

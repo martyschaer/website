@@ -2,7 +2,7 @@
 <html>
 <?php include("resources/components/head.php");?>
 <body>
-	<?php readfile("resources/components/header.html");?>
+	<?php include("resources/components/header.php");?>
 	<div class="page-wrap">
 		<div class="error">
 			<h1>404</h1>
