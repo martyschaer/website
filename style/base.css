@@ -83,10 +83,10 @@ nav a{
 	color: #f9f9f9;
 	text-decoration: none;
 	display: inline-block;
-	width: 24%;
+	width: 19%;
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 455px){
 	nav .fa{
 		display: none;
 	}
@@ -96,7 +96,7 @@ nav a{
 	}
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 345px){
 	nav .fa{
 		display: inline-block;
 	}
@@ -106,7 +106,7 @@ nav a{
 	}
 
 	nav a{
-		width: 23%;
+		width: 18%;
 	}
 }
 

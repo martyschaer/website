@@ -46,5 +46,6 @@ Char table:
 	&#xf0c1;
 	&#xf2c6;
 	&#xf10c;
+	&#xf015;
 Surround in <span class="fa">...</span>
 -->
