@@ -9,7 +9,7 @@
 		$_SESSION['posts'][] = $id;
 		$_SESSION['titles'][] = $txt;
 
-		$baseurl = "/blag#";
+		$baseurl = "/blog#";
 		$url = $baseurl . $id;
 		echo "<div class=\"share\"><h2>{$txt}</h2><span class=\"le\">{$date}</span><a name=\"{$id}\" class=\"anchor\"></a><a href=\"{$url}\"><span class=\"fa\">&#xf0c1;</span> permalink</a></div><hr class=\"postshare\"></hr>";
 	}
